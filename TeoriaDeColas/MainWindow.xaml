@@ -13,7 +13,7 @@
                 <GradientStop Color="White" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="238" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="325"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="241" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="334"/>
         <Label Content="Una cola con un único canal&#xA;" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="39" Width="325" FontSize="24" FontWeight="Bold"/>
         <Label Content="Ingrese el promedio de llegadas por hora." HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Height="41" Width="309" FontWeight="Bold" FontSize="14"/>
         <Label Content="Ingrese el promedio de atención por hora." HorizontalAlignment="Left" Margin="10,152,0,0" VerticalAlignment="Top" Height="41" Width="309" FontWeight="Bold" FontSize="14"/>
