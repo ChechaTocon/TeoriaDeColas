@@ -8,6 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button Content="Agregue un boton x 2" HorizontalAlignment="Left" Height="73" Margin="152,105,0,0" VerticalAlignment="Top" Width="180"/>
+        <Label Content="Huecooooooooo&#xD;&#xA;" HorizontalAlignment="Left" Margin="384,254,0,0" VerticalAlignment="Top" Height="98" Width="240"/>
 
     </Grid>
 </Window>
