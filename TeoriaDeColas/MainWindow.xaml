@@ -7,7 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="Huecooooooooo&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,26,0,0" VerticalAlignment="Top" Height="98" Width="240"/>
+        <Label Content="Teoría de colas&#xA;" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="39" Width="185" FontSize="24" FontWeight="Bold"/>
+        <Label Content="Ingrese el promedio de llegadas por hora." HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Height="41" Width="309" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Ingrese el promedio de atención por hora." HorizontalAlignment="Left" Margin="10,177,0,0" VerticalAlignment="Top" Height="41" Width="309" FontWeight="Bold" FontSize="14"/>
 
     </Grid>
 </Window>
