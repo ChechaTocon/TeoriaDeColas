@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TeoriaDeColas"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="950">
+        Title="Teoría de colas" Height="457.5" Width="950">
     <Grid>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -13,12 +13,22 @@
                 <GradientStop Color="White" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="275" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="354"/>
-        <Label Content="Una cola con un único canal&#xA;" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="39" Width="325" FontSize="24" FontWeight="Bold"/>
-        <Label Content="Ingrese el promedio de llegadas por hora." HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Height="41" Width="309" FontWeight="Bold" FontSize="14"/>
-        <Label Content="Ingrese el promedio de atención por hora." HorizontalAlignment="Left" Margin="10,152,0,0" VerticalAlignment="Top" Height="41" Width="309" FontWeight="Bold" FontSize="14"/>
-        <TextBox x:Name="textboxPromedioLlegadas" HorizontalAlignment="Left" Height="23" Margin="78,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184"/>
-        <TextBox x:Name="textboxPromedioAtencion" HorizontalAlignment="Left" Height="23" Margin="78,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="398" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="354"/>
+        <Label Content="Una cola con un único canal&#xA;" HorizontalAlignment="Left" Margin="22,10,0,0" VerticalAlignment="Top" Height="39" Width="325" FontSize="24" FontWeight="Bold"/>
+        <Label Content="Ingrese el promedio de llegadas por hora." HorizontalAlignment="Left" Margin="33,72,0,0" VerticalAlignment="Top" Height="41" Width="288" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Ingrese el promedio de atención por hora." HorizontalAlignment="Left" Margin="33,154,0,0" VerticalAlignment="Top" Height="41" Width="288" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="textboxPromedioAtencion" HorizontalAlignment="Left" Height="23" Margin="78,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184"/>
+        <TextBox x:Name="textboxPromedioLlegada" HorizontalAlignment="Left" Height="23" Margin="78,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184"/>
+        <Button Content="Calcular" HorizontalAlignment="Left" Margin="128,332,0,0" VerticalAlignment="Top" Width="82" Click="Button_Click"/>
+        <Label Content="Tiempo de la jornada laboral" HorizontalAlignment="Left" Margin="60,239,0,0" VerticalAlignment="Top" Height="41" Width="216" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="textboxJornada" HorizontalAlignment="Left" Height="23" Margin="78,280,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184"/>
+        <Label x:Name="LsLabel" Content="" HorizontalAlignment="Left" Margin="427,94,0,0" VerticalAlignment="Top" Height="30" Width="473" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="WsLabel" Content="" HorizontalAlignment="Left" Margin="427,123,0,0" VerticalAlignment="Top" Height="30" Width="473" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="LqLabel" Content="" HorizontalAlignment="Left" Margin="427,153,0,0" VerticalAlignment="Top" Height="30" Width="473" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="WqLabel" Content="" HorizontalAlignment="Left" Margin="427,183,0,0" VerticalAlignment="Top" Height="30" Width="473" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="PLabel" Content="" HorizontalAlignment="Left" Margin="427,213,0,0" VerticalAlignment="Top" Height="30" Width="473" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="P0Label" Content="" HorizontalAlignment="Left" Margin="427,243,0,0" VerticalAlignment="Top" Height="30" Width="473" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="noLabel" Content="" HorizontalAlignment="Left" Margin="427,273,0,0" VerticalAlignment="Top" Height="30" Width="473" FontWeight="Bold" FontSize="14"/>
 
     </Grid>
 </Window>
